@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
 // use own api
-const url = process.env.API_URL;
+const url = '';
+
 const Basic = () => {
   const [products, setProducts] = useState([]);
 
